@@ -27,14 +27,14 @@
       "fullName": "opto-sync/opto-sync-clients",
       "exists": true,
       "branch": "main",
-      "sha": "c93672ebfe7659243cafcd9d108ab4f17f2b2a87",
+      "sha": "fdf4fad9e2e841f66ecee19fca3b408d5fa7fa4c",
       "visibility": "public"
     },
     {
       "fullName": "opto-sync/syncer.rs",
       "exists": true,
       "branch": "main",
-      "sha": "27692fb7c7423999eaff45afa5bd64b1bf86ad57",
+      "sha": "61bbd6c99d6356c5cd7c12bdc78926ca29d06f20",
       "visibility": "public"
     }
   ],
@@ -44,6 +44,9 @@
     "immutableSourcePins": true,
     "pullRequestCredentials": false,
     "leastPrivilege": true,
-    "redactSecretsAndRawMedia": true
+    "redactSecretsAndRawMedia": true,
+    "protectedSourceIntegration": true,
+    "protectedSourceIntegrationStatus": "not-executed-unless-protected-lane-runs",
+    "productOverlayPreserved": true
   }
 }
